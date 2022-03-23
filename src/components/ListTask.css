@@ -1,0 +1,19 @@
+.content-list-task{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media (min-width: 750px){
+    .content-list-task{
+        color: #fff;
+        width: 500px;
+        min-height: 200px;
+        text-align: center;
+        background-color: #D82148;
+        padding: 10px;
+    }
+}

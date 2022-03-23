@@ -1,0 +1,22 @@
+.container-app-task{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+@media (min-width: 750px) {
+    .container-app-task{
+        position: relative;
+        top: 15%;
+        left: 0;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;       
+    }
+    
+}
